@@ -21,14 +21,14 @@ export default function Home() {
                     <p className="mt-4 text-xl text-gray-600">Prostota w służbie lokalnej społeczności.</p>
                 </header>
 
-                <section className="max-w-6xl mx-auto py-16 px-6">
-                    <h2 className="text-3xl font-bold mb-6 text-gray-800">O nas</h2>
-                    <div className="prose prose-lg max-w-none text-gray-700 whitespace-pre-line leading-relaxed text-justify hyphens-auto" lang="pl">
+                <section className="max-w-6xl pt-12 mx-auto px-6">
+                    <h2 className="text-3xl font-bold text-gray-800">O nas</h2>
+                    <div className="py-6 prose prose-lg max-w-none text-gray-700 whitespace-pre-line leading-relaxed text-justify hyphens-auto" lang="pl">
                         {O_NAS_TEXT}
                     </div>
                 </section>
-                <section className="max-w-6xl mx-auto py-4 px-6">
-                    <h2 className="text-3xl font-bold mb-8 text-gray-800">Pałac w Brzeźnicy:</h2>
+                <section className="max-w-6xl mx-auto px-6">
+                    <h2 className="text-3xl font-bold mb-8 text-gray-800">Pałac w Brzeźnicy, siedziba fundacji:</h2>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                         {images.map((src, index) => (
                             <div
@@ -51,7 +51,7 @@ export default function Home() {
                 <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 px-6">
                     <div>
                         <h2 className="text-2xl font-bold mb-4">Kontakt</h2>
-                        <p className="text-xl font-semibold mb-0">Prezes Zarządu:</p>
+                        <p className="text-xl font-semibold mb-0">Prezes Zarządu Szymon Patrzykąt:</p>
                         <p className="text-gray-400 font-medium text-lg">Email: fundacjaperyfeerie@gmail.com</p>
                         <p className="text-gray-400 font-medium text-lg">Tel: +48 730 190 107</p>
                     </div>
