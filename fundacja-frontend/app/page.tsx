@@ -17,7 +17,7 @@ export default function Home() {
 
             <div className="flex-grow">
                 <header className="py-20 px-6 text-center bg-white border-b">
-                    <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight">Fundacja LUBUSKIE OD-NOWA</h1>
+                    <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight">Fundacja Peryfeerie</h1>
                     <p className="mt-4 text-xl text-gray-600">Prostota w służbie lokalnej społeczności.</p>
                 </header>
 
